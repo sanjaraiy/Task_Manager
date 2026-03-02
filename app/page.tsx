@@ -18,7 +18,7 @@ interface Task {
   completed: boolean;
 }
 
-export default function Home() {
+export default  function Home() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [search, setSearch] = useState('');
   const [status, setStatus] = useState('');
